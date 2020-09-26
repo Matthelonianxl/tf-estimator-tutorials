@@ -1,6 +1,10 @@
 apache-beam[gcp]
 bs4==0.0.1
 nltk==3.3
-tensorflow==1.7.0
+tensorflow==1.7.1
 tensorflow-hub==0.1.0
 tensorflow-transform==0.6.0
+
+bleach>=2.1 # not directly required, pinned by Snyk to avoid a vulnerability
+html5lib>=0.99999999 # not directly required, pinned by Snyk to avoid a vulnerability
+httplib2>=0.18.0 # not directly required, pinned by Snyk to avoid a vulnerability
