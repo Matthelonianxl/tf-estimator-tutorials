@@ -4,3 +4,4 @@ nltk==3.3
 tensorflow==1.7.0
 tensorflow-hub==0.1.0
 tensorflow-transform==0.6.0
+rsa>=4.7 # not directly required, pinned by Snyk to avoid a vulnerability
