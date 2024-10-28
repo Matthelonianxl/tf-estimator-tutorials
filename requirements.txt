@@ -5,3 +5,4 @@ google-api-python-client
 oauth2client
 requests
 sh
+werkzeug>=3.0.6 # not directly required, pinned by Snyk to avoid a vulnerability
