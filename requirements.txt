@@ -5,3 +5,5 @@ google-api-python-client
 oauth2client
 requests
 sh
+protobuf>=4.25.8 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
